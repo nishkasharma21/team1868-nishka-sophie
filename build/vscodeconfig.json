@@ -1,0 +1,469 @@
+[
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "debug",
+    "cppPath": "/Users/nishkasharma/wpilib/2022/roborio/bin/arm-frc2022-linux-gnueabi-g++",
+    "cPath": "/Users/nishkasharma/wpilib/2022/roborio/bin/arm-frc2022-linux-gnueabi-gcc",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "/Users/nishkasharma/.gradle/caches/transforms-3/b9b715fc1b44adcfedbfbb3ab89c178e/transformed/wpilibNewCommands-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/5b386db48fe4f5d5dafbbcf59cac3f95/transformed/REVLib-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/290e119478e93d2d878c6763d152cd6b/transformed/REVLib-driver-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/f23e8dc925e49a031e44f16384363b69/transformed/wpiapi-cpp-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/4132bd84fc4b09fd646eaaf735bd95da/transformed/api-cpp-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/761e4df46241474812e4c0e65086622b/transformed/cci-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/4b73724e5b387c719b10809d9868d934/transformed/wpiapi-cpp-sim-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6f830dafe50e65982214d542e267467c/transformed/api-cpp-sim-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/f76ce7fb78253e38c856f96dbc775d66/transformed/cci-sim-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/dde0949ea8f5532ef3cda6c7ed7a2262/transformed/simTalonSRX-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/0d9b84bf98fa924c3b76954e428f98d2/transformed/simTalonFX-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/7289677b74f60cf4fbe8b9ff4e3ad0af/transformed/simVictorSPX-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/a87a4871776c8957fcfde148de2c86cf/transformed/simPigeonIMU-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/cd60e5ec7d2ea104dd7d1f84d16c1cb2/transformed/simCANCoder-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/f9718b039575b7da4fdb22e46d429f0c/transformed/navx-cpp-4.0.447-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/b23590a9aeda4823b60074887f6260c9/transformed/wpilibc-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/5ba9bf7153f274f76502a5f4c3d32f6b/transformed/ntcore-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/391ef0ce64eb13953bcaadcfdaa74c75/transformed/hal-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6de2349aa5dce6424c40e88ee42dc433/transformed/wpimath-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6166a2b272e3e55c61176cea90061f46/transformed/wpiutil-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/a2e029168bbbc4e0f499b5c4de6c15f1/transformed/netcomm-2022.2.3-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6a2729915122c4d8febd0d1b22d82524/transformed/chipobject-2022.2.3-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/830c439df2f2c1658009ce798874a998/transformed/visa-2022.2.3-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/9f569b731763aabb70c5a66379e539cb/transformed/cameraserver-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/d5dac79e2935be0e8d7f814b1672f531/transformed/cscore-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/61ff11549134e33cfbcfe11baa436a48/transformed/opencv-cpp-4.5.2-1-headers/",
+      "/Users/nishkasharma/Desktop/team1868-nishka-sophie/src/main/include/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/85e44a937ec869feaffa4fb0f10ba78c/transformed/wpilibNewCommands-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/69f7202620c39b07cfca53ce79da3d99/transformed/navx-cpp-4.0.447-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/536de64f273daba7f534016905d7a123/transformed/wpilibc-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/257baca78de047b0e3cb0886d0741f58/transformed/ntcore-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/fd15999c9a75688490a3b4439ddf834b/transformed/hal-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/2f3f07f807c04e78eff012eefbe9ad86/transformed/wpimath-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/db4b0901b10c5e0b6e7f50b7ff3334e0/transformed/wpiutil-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6043c2036246c9c8bfc14de035d67134/transformed/cameraserver-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/5dcfdabde8e9abf79e99a2b7f83c1e50/transformed/cscore-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/a4bb76f0aed5a9b7a23d018e2fc75903/transformed/opencv-cpp-4.5.2-1-sources/"
+    ],
+    "allLibSources": [
+      "/Users/nishkasharma/.gradle/caches/transforms-3/85e44a937ec869feaffa4fb0f10ba78c/transformed/wpilibNewCommands-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/69f7202620c39b07cfca53ce79da3d99/transformed/navx-cpp-4.0.447-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/536de64f273daba7f534016905d7a123/transformed/wpilibc-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/257baca78de047b0e3cb0886d0741f58/transformed/ntcore-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/fd15999c9a75688490a3b4439ddf834b/transformed/hal-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/2f3f07f807c04e78eff012eefbe9ad86/transformed/wpimath-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/db4b0901b10c5e0b6e7f50b7ff3334e0/transformed/wpiutil-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6043c2036246c9c8bfc14de035d67134/transformed/cameraserver-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/5dcfdabde8e9abf79e99a2b7f83c1e50/transformed/cscore-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/a4bb76f0aed5a9b7a23d018e2fc75903/transformed/opencv-cpp-4.5.2-1-sources/"
+    ],
+    "allLibHeaders": [
+      "/Users/nishkasharma/.gradle/caches/transforms-3/b9b715fc1b44adcfedbfbb3ab89c178e/transformed/wpilibNewCommands-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/5b386db48fe4f5d5dafbbcf59cac3f95/transformed/REVLib-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/290e119478e93d2d878c6763d152cd6b/transformed/REVLib-driver-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/f23e8dc925e49a031e44f16384363b69/transformed/wpiapi-cpp-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/4132bd84fc4b09fd646eaaf735bd95da/transformed/api-cpp-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/761e4df46241474812e4c0e65086622b/transformed/cci-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/4b73724e5b387c719b10809d9868d934/transformed/wpiapi-cpp-sim-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6f830dafe50e65982214d542e267467c/transformed/api-cpp-sim-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/f76ce7fb78253e38c856f96dbc775d66/transformed/cci-sim-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/dde0949ea8f5532ef3cda6c7ed7a2262/transformed/simTalonSRX-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/0d9b84bf98fa924c3b76954e428f98d2/transformed/simTalonFX-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/7289677b74f60cf4fbe8b9ff4e3ad0af/transformed/simVictorSPX-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/a87a4871776c8957fcfde148de2c86cf/transformed/simPigeonIMU-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/cd60e5ec7d2ea104dd7d1f84d16c1cb2/transformed/simCANCoder-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/f9718b039575b7da4fdb22e46d429f0c/transformed/navx-cpp-4.0.447-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/b23590a9aeda4823b60074887f6260c9/transformed/wpilibc-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/5ba9bf7153f274f76502a5f4c3d32f6b/transformed/ntcore-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/391ef0ce64eb13953bcaadcfdaa74c75/transformed/hal-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6de2349aa5dce6424c40e88ee42dc433/transformed/wpimath-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6166a2b272e3e55c61176cea90061f46/transformed/wpiutil-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/a2e029168bbbc4e0f499b5c4de6c15f1/transformed/netcomm-2022.2.3-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6a2729915122c4d8febd0d1b22d82524/transformed/chipobject-2022.2.3-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/830c439df2f2c1658009ce798874a998/transformed/visa-2022.2.3-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/9f569b731763aabb70c5a66379e539cb/transformed/cameraserver-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/d5dac79e2935be0e8d7f814b1672f531/transformed/cscore-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/61ff11549134e33cfbcfe11baa436a48/transformed/opencv-cpp-4.5.2-1-headers/",
+      "/Users/nishkasharma/Desktop/team1868-nishka-sophie/src/main/include/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/nishkasharma/Desktop/team1868-nishka-sophie/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/nishkasharma/Desktop/team1868-nishka-sophie/src/main/include/"
+              ],
+              "includes": [],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-Og",
+              "-g"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/Users/nishkasharma/.gradle/caches/transforms-3/b9b715fc1b44adcfedbfbb3ab89c178e/transformed/wpilibNewCommands-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/5b386db48fe4f5d5dafbbcf59cac3f95/transformed/REVLib-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/290e119478e93d2d878c6763d152cd6b/transformed/REVLib-driver-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/f23e8dc925e49a031e44f16384363b69/transformed/wpiapi-cpp-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/4132bd84fc4b09fd646eaaf735bd95da/transformed/api-cpp-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/761e4df46241474812e4c0e65086622b/transformed/cci-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/4b73724e5b387c719b10809d9868d934/transformed/wpiapi-cpp-sim-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/6f830dafe50e65982214d542e267467c/transformed/api-cpp-sim-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/f76ce7fb78253e38c856f96dbc775d66/transformed/cci-sim-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/dde0949ea8f5532ef3cda6c7ed7a2262/transformed/simTalonSRX-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/0d9b84bf98fa924c3b76954e428f98d2/transformed/simTalonFX-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/7289677b74f60cf4fbe8b9ff4e3ad0af/transformed/simVictorSPX-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/a87a4871776c8957fcfde148de2c86cf/transformed/simPigeonIMU-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/cd60e5ec7d2ea104dd7d1f84d16c1cb2/transformed/simCANCoder-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/f9718b039575b7da4fdb22e46d429f0c/transformed/navx-cpp-4.0.447-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/b23590a9aeda4823b60074887f6260c9/transformed/wpilibc-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/5ba9bf7153f274f76502a5f4c3d32f6b/transformed/ntcore-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/391ef0ce64eb13953bcaadcfdaa74c75/transformed/hal-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/6de2349aa5dce6424c40e88ee42dc433/transformed/wpimath-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/6166a2b272e3e55c61176cea90061f46/transformed/wpiutil-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/a2e029168bbbc4e0f499b5c4de6c15f1/transformed/netcomm-2022.2.3-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/6a2729915122c4d8febd0d1b22d82524/transformed/chipobject-2022.2.3-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/830c439df2f2c1658009ce798874a998/transformed/visa-2022.2.3-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/9f569b731763aabb70c5a66379e539cb/transformed/cameraserver-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/d5dac79e2935be0e8d7f814b1672f531/transformed/cscore-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/61ff11549134e33cfbcfe11baa436a48/transformed/opencv-cpp-4.5.2-1-headers/",
+          "/Users/nishkasharma/Desktop/team1868-nishka-sophie/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/nishkasharma/Desktop/team1868-nishka-sophie/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og",
+          "-g"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/nishkasharma/Desktop/team1868-nishka-sophie/src/main/include/"
+          ],
+          "includes": [],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og",
+          "-g"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  },
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "release",
+    "cppPath": "/Users/nishkasharma/wpilib/2022/roborio/bin/arm-frc2022-linux-gnueabi-g++",
+    "cPath": "/Users/nishkasharma/wpilib/2022/roborio/bin/arm-frc2022-linux-gnueabi-gcc",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "/Users/nishkasharma/.gradle/caches/transforms-3/b9b715fc1b44adcfedbfbb3ab89c178e/transformed/wpilibNewCommands-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/5b386db48fe4f5d5dafbbcf59cac3f95/transformed/REVLib-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/290e119478e93d2d878c6763d152cd6b/transformed/REVLib-driver-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/f23e8dc925e49a031e44f16384363b69/transformed/wpiapi-cpp-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/4132bd84fc4b09fd646eaaf735bd95da/transformed/api-cpp-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/761e4df46241474812e4c0e65086622b/transformed/cci-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/4b73724e5b387c719b10809d9868d934/transformed/wpiapi-cpp-sim-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6f830dafe50e65982214d542e267467c/transformed/api-cpp-sim-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/f76ce7fb78253e38c856f96dbc775d66/transformed/cci-sim-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/dde0949ea8f5532ef3cda6c7ed7a2262/transformed/simTalonSRX-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/0d9b84bf98fa924c3b76954e428f98d2/transformed/simTalonFX-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/7289677b74f60cf4fbe8b9ff4e3ad0af/transformed/simVictorSPX-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/a87a4871776c8957fcfde148de2c86cf/transformed/simPigeonIMU-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/cd60e5ec7d2ea104dd7d1f84d16c1cb2/transformed/simCANCoder-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/f9718b039575b7da4fdb22e46d429f0c/transformed/navx-cpp-4.0.447-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/b23590a9aeda4823b60074887f6260c9/transformed/wpilibc-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/5ba9bf7153f274f76502a5f4c3d32f6b/transformed/ntcore-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/391ef0ce64eb13953bcaadcfdaa74c75/transformed/hal-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6de2349aa5dce6424c40e88ee42dc433/transformed/wpimath-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6166a2b272e3e55c61176cea90061f46/transformed/wpiutil-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/a2e029168bbbc4e0f499b5c4de6c15f1/transformed/netcomm-2022.2.3-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6a2729915122c4d8febd0d1b22d82524/transformed/chipobject-2022.2.3-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/830c439df2f2c1658009ce798874a998/transformed/visa-2022.2.3-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/9f569b731763aabb70c5a66379e539cb/transformed/cameraserver-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/d5dac79e2935be0e8d7f814b1672f531/transformed/cscore-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/61ff11549134e33cfbcfe11baa436a48/transformed/opencv-cpp-4.5.2-1-headers/",
+      "/Users/nishkasharma/Desktop/team1868-nishka-sophie/src/main/include/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/85e44a937ec869feaffa4fb0f10ba78c/transformed/wpilibNewCommands-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/69f7202620c39b07cfca53ce79da3d99/transformed/navx-cpp-4.0.447-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/536de64f273daba7f534016905d7a123/transformed/wpilibc-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/257baca78de047b0e3cb0886d0741f58/transformed/ntcore-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/fd15999c9a75688490a3b4439ddf834b/transformed/hal-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/2f3f07f807c04e78eff012eefbe9ad86/transformed/wpimath-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/db4b0901b10c5e0b6e7f50b7ff3334e0/transformed/wpiutil-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6043c2036246c9c8bfc14de035d67134/transformed/cameraserver-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/5dcfdabde8e9abf79e99a2b7f83c1e50/transformed/cscore-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/a4bb76f0aed5a9b7a23d018e2fc75903/transformed/opencv-cpp-4.5.2-1-sources/"
+    ],
+    "allLibSources": [
+      "/Users/nishkasharma/.gradle/caches/transforms-3/85e44a937ec869feaffa4fb0f10ba78c/transformed/wpilibNewCommands-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/69f7202620c39b07cfca53ce79da3d99/transformed/navx-cpp-4.0.447-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/536de64f273daba7f534016905d7a123/transformed/wpilibc-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/257baca78de047b0e3cb0886d0741f58/transformed/ntcore-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/fd15999c9a75688490a3b4439ddf834b/transformed/hal-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/2f3f07f807c04e78eff012eefbe9ad86/transformed/wpimath-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/db4b0901b10c5e0b6e7f50b7ff3334e0/transformed/wpiutil-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6043c2036246c9c8bfc14de035d67134/transformed/cameraserver-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/5dcfdabde8e9abf79e99a2b7f83c1e50/transformed/cscore-cpp-2022.1.1-sources/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/a4bb76f0aed5a9b7a23d018e2fc75903/transformed/opencv-cpp-4.5.2-1-sources/"
+    ],
+    "allLibHeaders": [
+      "/Users/nishkasharma/.gradle/caches/transforms-3/b9b715fc1b44adcfedbfbb3ab89c178e/transformed/wpilibNewCommands-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/5b386db48fe4f5d5dafbbcf59cac3f95/transformed/REVLib-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/290e119478e93d2d878c6763d152cd6b/transformed/REVLib-driver-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/f23e8dc925e49a031e44f16384363b69/transformed/wpiapi-cpp-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/4132bd84fc4b09fd646eaaf735bd95da/transformed/api-cpp-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/761e4df46241474812e4c0e65086622b/transformed/cci-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/4b73724e5b387c719b10809d9868d934/transformed/wpiapi-cpp-sim-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6f830dafe50e65982214d542e267467c/transformed/api-cpp-sim-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/f76ce7fb78253e38c856f96dbc775d66/transformed/cci-sim-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/dde0949ea8f5532ef3cda6c7ed7a2262/transformed/simTalonSRX-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/0d9b84bf98fa924c3b76954e428f98d2/transformed/simTalonFX-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/7289677b74f60cf4fbe8b9ff4e3ad0af/transformed/simVictorSPX-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/a87a4871776c8957fcfde148de2c86cf/transformed/simPigeonIMU-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/cd60e5ec7d2ea104dd7d1f84d16c1cb2/transformed/simCANCoder-5.21.2-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/f9718b039575b7da4fdb22e46d429f0c/transformed/navx-cpp-4.0.447-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/b23590a9aeda4823b60074887f6260c9/transformed/wpilibc-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/5ba9bf7153f274f76502a5f4c3d32f6b/transformed/ntcore-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/391ef0ce64eb13953bcaadcfdaa74c75/transformed/hal-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6de2349aa5dce6424c40e88ee42dc433/transformed/wpimath-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6166a2b272e3e55c61176cea90061f46/transformed/wpiutil-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/a2e029168bbbc4e0f499b5c4de6c15f1/transformed/netcomm-2022.2.3-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/6a2729915122c4d8febd0d1b22d82524/transformed/chipobject-2022.2.3-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/830c439df2f2c1658009ce798874a998/transformed/visa-2022.2.3-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/9f569b731763aabb70c5a66379e539cb/transformed/cameraserver-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/d5dac79e2935be0e8d7f814b1672f531/transformed/cscore-cpp-2022.1.1-headers/",
+      "/Users/nishkasharma/.gradle/caches/transforms-3/61ff11549134e33cfbcfe11baa436a48/transformed/opencv-cpp-4.5.2-1-headers/",
+      "/Users/nishkasharma/Desktop/team1868-nishka-sophie/src/main/include/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/nishkasharma/Desktop/team1868-nishka-sophie/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/nishkasharma/Desktop/team1868-nishka-sophie/src/main/include/"
+              ],
+              "includes": [],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-O2"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/Users/nishkasharma/.gradle/caches/transforms-3/b9b715fc1b44adcfedbfbb3ab89c178e/transformed/wpilibNewCommands-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/5b386db48fe4f5d5dafbbcf59cac3f95/transformed/REVLib-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/290e119478e93d2d878c6763d152cd6b/transformed/REVLib-driver-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/f23e8dc925e49a031e44f16384363b69/transformed/wpiapi-cpp-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/4132bd84fc4b09fd646eaaf735bd95da/transformed/api-cpp-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/761e4df46241474812e4c0e65086622b/transformed/cci-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/4b73724e5b387c719b10809d9868d934/transformed/wpiapi-cpp-sim-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/6f830dafe50e65982214d542e267467c/transformed/api-cpp-sim-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/f76ce7fb78253e38c856f96dbc775d66/transformed/cci-sim-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/dde0949ea8f5532ef3cda6c7ed7a2262/transformed/simTalonSRX-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/0d9b84bf98fa924c3b76954e428f98d2/transformed/simTalonFX-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/7289677b74f60cf4fbe8b9ff4e3ad0af/transformed/simVictorSPX-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/a87a4871776c8957fcfde148de2c86cf/transformed/simPigeonIMU-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/cd60e5ec7d2ea104dd7d1f84d16c1cb2/transformed/simCANCoder-5.21.2-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/f9718b039575b7da4fdb22e46d429f0c/transformed/navx-cpp-4.0.447-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/b23590a9aeda4823b60074887f6260c9/transformed/wpilibc-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/5ba9bf7153f274f76502a5f4c3d32f6b/transformed/ntcore-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/391ef0ce64eb13953bcaadcfdaa74c75/transformed/hal-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/6de2349aa5dce6424c40e88ee42dc433/transformed/wpimath-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/6166a2b272e3e55c61176cea90061f46/transformed/wpiutil-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/a2e029168bbbc4e0f499b5c4de6c15f1/transformed/netcomm-2022.2.3-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/6a2729915122c4d8febd0d1b22d82524/transformed/chipobject-2022.2.3-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/830c439df2f2c1658009ce798874a998/transformed/visa-2022.2.3-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/9f569b731763aabb70c5a66379e539cb/transformed/cameraserver-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/d5dac79e2935be0e8d7f814b1672f531/transformed/cscore-cpp-2022.1.1-headers/",
+          "/Users/nishkasharma/.gradle/caches/transforms-3/61ff11549134e33cfbcfe11baa436a48/transformed/opencv-cpp-4.5.2-1-headers/",
+          "/Users/nishkasharma/Desktop/team1868-nishka-sophie/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/nishkasharma/Desktop/team1868-nishka-sophie/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/nishkasharma/Desktop/team1868-nishka-sophie/src/main/include/"
+          ],
+          "includes": [],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  }
+]
